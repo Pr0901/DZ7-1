@@ -16,6 +16,7 @@ public class StatsService {
         return minMonth + 1;
     }
 
+
     public int maxSales(long[] sales) {
 
         int maxMonth = 0;

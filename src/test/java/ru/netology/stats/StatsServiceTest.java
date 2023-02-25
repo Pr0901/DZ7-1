@@ -16,8 +16,6 @@ public class StatsServiceTest {
         long actualMonth = service.minSales(sales);
 
         Assertions.assertEquals(expectedMonth, actualMonth);
-
-
     }
 
     @Test
@@ -31,8 +29,6 @@ public class StatsServiceTest {
         long actualMonth = service.maxSales(sales);
 
         Assertions.assertEquals(expectedMonth, actualMonth);
-
-
     }
 
 
@@ -47,7 +43,6 @@ public class StatsServiceTest {
         long actualSum = service.maxSales(sales);
 
         Assertions.assertEquals(expectedSum, actualSum);
-
     }
 
     @Test
@@ -61,7 +56,6 @@ public class StatsServiceTest {
         long actualSale = service.middleSales(sales);
 
         Assertions.assertEquals(expectedSale, actualSale);
-
     }
 
     @Test
